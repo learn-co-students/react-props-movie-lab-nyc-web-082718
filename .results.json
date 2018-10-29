@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 14,
-    "passes": 13,
+    "passes": 14,
     "pending": 0,
-    "failures": 1,
-    "start": "2018-10-29T19:54:59.787Z",
-    "end": "2018-10-29T19:54:59.830Z",
-    "duration": 43
+    "failures": 0,
+    "start": "2018-10-29T20:02:16.715Z",
+    "end": "2018-10-29T20:02:16.751Z",
+    "duration": 36
   },
   "tests": [
     {
@@ -20,14 +20,14 @@
     {
       "title": "renders 9 <MovieCard /> components",
       "fullTitle": "<MovieShowcase /> renders 9 <MovieCard /> components",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "passes all 4 props to every component",
       "fullTitle": "<MovieShowcase /> passes all 4 props to every component",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,7 +62,7 @@
     {
       "title": "assigns a default prop of ['No Genre(s) Found'] for the genres prop",
       "fullTitle": "<MovieCard /> assigns a default prop of ['No Genre(s) Found'] for the genres prop",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -83,7 +83,7 @@
     {
       "title": "correctly renders the title prop",
       "fullTitle": "<CardBack /> correctly renders the title prop",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -104,33 +104,13 @@
     {
       "title": "renders an <img> tag if the IMDBRating prop is valid",
       "fullTitle": "<CardBack /> renders an <img> tag if the IMDBRating prop is valid",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected false to equal true",
-        "showDiff": true,
-        "actual": "false",
-        "expected": "true",
-        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/3-CardBack.test.js:37:46)"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "renders an <img> tag if the IMDBRating prop is valid",
-      "fullTitle": "<CardBack /> renders an <img> tag if the IMDBRating prop is valid",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected false to equal true",
-        "showDiff": true,
-        "actual": "false",
-        "expected": "true",
-        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/3-CardBack.test.js:37:46)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "renders at least one <MovieCard /> component",
@@ -142,14 +122,14 @@
     {
       "title": "renders 9 <MovieCard /> components",
       "fullTitle": "<MovieShowcase /> renders 9 <MovieCard /> components",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "passes all 4 props to every component",
       "fullTitle": "<MovieShowcase /> passes all 4 props to every component",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -184,7 +164,7 @@
     {
       "title": "assigns a default prop of ['No Genre(s) Found'] for the genres prop",
       "fullTitle": "<MovieCard /> assigns a default prop of ['No Genre(s) Found'] for the genres prop",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -205,7 +185,7 @@
     {
       "title": "correctly renders the title prop",
       "fullTitle": "<CardBack /> correctly renders the title prop",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -220,6 +200,13 @@
       "title": "renders 'No Rating Found' in an <h4> if the IMDBRating prop is null",
       "fullTitle": "<CardBack /> renders 'No Rating Found' in an <h4> if the IMDBRating prop is null",
       "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an <img> tag if the IMDBRating prop is valid",
+      "fullTitle": "<CardBack /> renders an <img> tag if the IMDBRating prop is valid",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
